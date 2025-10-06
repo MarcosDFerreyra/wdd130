@@ -136,6 +136,7 @@ footer{
   align-items: center;
   padding-left: 200px;
   background-color: var(--primary-color);
+  color: white;
 }
 
 .section1 {
