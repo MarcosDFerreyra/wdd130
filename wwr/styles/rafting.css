@@ -1,8 +1,6 @@
 :root {
-  --primary-color: #0B3D2E;      /* deep forest green */
-  --secondary-color: #1E88E5;    /* bright blue for buttons/links */
-  --accent1-color: #e76b06;      /* warm sandy orange */
-  --accent2-color: #F1F5F2;      /* light neutral background */
+  --primary-color: #0B3D2E;     
+  --accent1-color: #F1F5F2;      
   --heading-font: "Times New Roman", Georgia, serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -48,7 +46,7 @@ header {
 }
 
 .navegation li {
-  background-color: white;
+  background-color: var(--accent1-color);
   flex: 1 1 auto;
   border: 1px solid black;
   padding: 2px; 
@@ -88,9 +86,9 @@ nav, p, section, article{
   width: fit-content;
   padding: 16px;
   text-align: center;
-  opacity: 0.9;
-  background-color: var(--accent1-color);
-  color: white; 
+  opacity: 0.95;
+  background-color: var(--primary-color);
+  color: var(--accent1-color); 
 }
 
 .hero article {
@@ -102,9 +100,9 @@ nav, p, section, article{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   opacity: 0.9;
-  color: white;
+  color:  var(--accent1-color);
   padding: 16px;
   width: 90%;
   max-width: 800px;
@@ -136,7 +134,7 @@ footer{
   align-items: center;
   padding-left: 200px;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--accent1-color);
 }
 
 .section1 {
