@@ -62,7 +62,7 @@ h1, h2 {
   color: var(--primary-color);
 }
 
-nav, p, section, article{
+nav, article{
   padding: 12px;
 }
  
@@ -186,7 +186,6 @@ footer{
 
 .all-images figure {
   flex: 0 1 150px;        
-
 }
 
 .all-images img {
@@ -198,3 +197,92 @@ figcaption{
   padding: 1px;
   text-align: center;
 } 
+
+
+
+/*contact us page*/
+
+.company-information{
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.map-form {
+  color: var(--primary-color);
+  display: flex;
+  margin: 15px 0px 10px 0px
+
+}
+
+.map {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.complete-form{
+  padding-left: 60px;
+  align-items: center;
+}
+
+.column {
+  display: grid;
+  padding: 5px;
+  max-width: 100%;
+}
+.name-email {
+  grid-template-columns: 1fr 2fr;
+  padding: 5px;
+}
+
+.column-radio {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 30px;
+  justify-content: center;
+
+}
+
+.message{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.message, textarea{
+  resize: vertical;
+}
+
+.suscription {
+  margin: 7px 0px 7px 0px;
+}
+
+.complete-form button{
+  margin: auto;
+  width: 100% ;
+  height: 40px;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+
+
+.all-images-2 {
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 70px;         
+  color: var(--primary-color);
+}  
+
+.all-images-2 figure {
+  flex: 0 1 150px;  
+    
+}
+
+.all-images-2 img {
+  width: 150px;
+  height: 115px;
+}
