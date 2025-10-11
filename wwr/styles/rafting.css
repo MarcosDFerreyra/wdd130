@@ -12,7 +12,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--primary-color);
   
 }
 
@@ -20,8 +20,9 @@ header, main, footer {
   max-width: 840px;
   margin: 0 auto;
 }
+
 main{
-  padding: 3px 0px 3px 0px;   
+  padding: 0px 0px 3px 0px;   
 }
 
 header {
@@ -68,7 +69,7 @@ nav, article{
  
 .hero {
   position: relative;
-  border: 3px solid black;
+  max-width: 840px;
 }
 
 .hero img {
@@ -87,8 +88,8 @@ nav, article{
   padding: 16px;
   text-align: center;
   opacity: 0.95;
-  background-color: var(--primary-color);
   color: var(--accent1-color); 
+  font-size: 3rem;
 }
 
 .hero article {
@@ -138,7 +139,7 @@ footer{
 }
 
 .section1 {
-  margin: 3px 0px 3px 0px;
+  margin-bottom: 3px;
   border: 3px solid black;
 }
 .section1 h2 {
@@ -285,4 +286,170 @@ figcaption{
 .all-images-2 img {
   width: 150px;
   height: 115px;
+}
+
+/* HOME PAGE*/
+
+.hero .trip-link {
+  position: absolute;
+  top: 100px;   
+  left: 305px;
+}
+
+legend{
+  font-size: 1.6rem;
+  color: var(--accent1-color);
+}
+
+.trip-button{
+  margin: auto;
+  width: fit-content;
+  height: auto;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+}
+
+
+.newsletter h1{
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.newsletter{
+  text-align: center;
+}
+
+.newsletter div {
+  padding: 30px;
+}
+
+.newsletter form input[type="text"],
+form input[type="email"] {
+  font-size: 1.3rem;     
+  padding: 13px 17px;    
+  width: 260px;          
+  border-radius: 0.5rem; 
+  border: 1px solid #ccc;
+} 
+
+.newsletter form [type= "button"]{
+  font-size: 1.5rem;
+  padding: 12px 70px;
+  border-radius: 2rem;
+  border: 2px solid black;
+  background: var(--primary-color);
+  color: var(--accent1-color);
+  margin-bottom: 40px;
+}
+
+.grid-images{
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: 75px; 
+  justify-content: center; 
+  padding: 2px;
+}
+
+.grid-images img {
+  max-width: 370px;
+  border-radius: 1rem;
+  padding: 3px;
+}
+
+.grid-images h3 {
+  font-size: 1.7rem;
+  max-width: 370px;
+  text-align: center;
+  padding: 8px;
+}
+
+.grid-images .texto {
+  max-width: 370px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+/*TRIPS PAGE*/
+
+
+
+.contact-us h1{
+  font-size: 2.5rem;
+  padding: 10px;
+  
+}
+
+.contact-us{
+  text-align: center;
+}
+
+.contact-us form [type= "button"]{
+  font-size: 1.5rem;
+  padding: 12px 70px;
+  border-radius: 2rem;
+  border: 2px solid black;
+  background: var(--primary-color);
+  color: var(--accent1-color);
+  margin: 15px;
+}
+
+
+.grid-images2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: 20px; 
+  justify-content: center; 
+  padding: 2px;
+}
+
+.grid-images2 img {
+  max-width: 370px;
+  border-radius: 1rem;
+  padding: 3px;
+}
+
+.grid-images2 h3 {
+  font-size: 1.9rem;
+  max-width: 370px;
+  text-align: center;
+  padding: 30px;
+
+}
+
+.grid-images2 .texto {
+  max-width: 370px;
+  text-align: center;
+  
+}
+
+
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+thead, tfoot {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+}
+
+th, td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
 }
