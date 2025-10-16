@@ -332,7 +332,7 @@ form input[type="email"] {
   border: 1px solid #ccc;
 } 
 
-.name2 form [type= "button"]{
+.homepage-button [type= "button"]{
   font-size: 1.5rem;
   padding: 12px 70px;
   border-radius: 2rem;
